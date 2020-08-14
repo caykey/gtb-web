@@ -5,8 +5,9 @@
 }
 
 body {
+    background-color: #23272A;
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .center-div {
@@ -18,6 +19,7 @@ body {
 }
 
 #title {
+    color: #FFFFFF;
 	font-weight: bold;
 	font-size: 40px;
 	margin-bottom: 10px;
@@ -31,46 +33,58 @@ body {
 	display: inline-block;
 	padding: 10px;
 	margin: 5px;
-	background-color: #F9F9F9;
+	background-color: #2C2F33;
 	border-radius: 5px;
-	color: #777777;
+	color: #FFFFFF;
 	font-weight: bold;
 	transition: ease 200ms;
 }
 .link-btn:hover {
-	background-color: #5577CC;
+	background-color: #7289DA;
 	color: #FFFFFF;
 	transition: ease 300ms;
 	cursor: pointer;
 }
 
 .setting-label {
+    color: #FFFFFF;
 	font-weight: bold;
 	display: inline;
 	padding-right: 10px;
 }
 
 .dropdown {
+    border-radius: 10px;
+    background-color: #2C2F33;
+    border: 0px solid #FFF;
+    color: #FFF;
 	font-size: 16px;
 	margin-bottom: 10px;
 	padding: 3px;
 }
 
 .input-choice-radio {
+    border: 0px solid #FFF;
 	display: inline;
 }
 .input-choice-label {
+    color: #FFFFFF;
 	display: inline;
 	padding-right: 10px;
 }
 
 .word-length-label {
+    color: #FFFFFF;
 	display: inline;
 	padding-right: 5px;
 }
 
 .word-length-input {
+    background-color: #2C2F33;
+    color: #FFF;
 	font-size: 16px;
+	border-radius: 10px;
+    border: 0px solid #FFF;
 	display: inline;
 	padding: 5px;
 	margin-right: 15px;
@@ -108,25 +122,28 @@ body {
 }
 
 #word-found-title {
+    color: #FFFFFF;
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 0;
 	margin-top: 15px;
 }
 #word-found-label {
+    color: #FFFFFF;
 	font-size: 14px;
 	font-weight: bold;
 	margin: 0;
 	display: inline;
 }
 #word-found-label-div {
+    color: #FFFFFF;
 	vertical-align: middle;
 }
 .word-found-label-sep {
 	display: inline-block;
 	width: 100px;
 	height: 1px;
-	background-color: #000;
+	background-color: #FFF;
 	margin: 5px 10px 5px 10px;
 }
 .word-found-list {
@@ -139,6 +156,7 @@ body {
 	vertical-align: top;
 }
 .word-found {
+    color: #FFFFFF;
 	margin: 0;
 	padding-top: 0;
 	padding-bottom: 0;
@@ -146,6 +164,7 @@ body {
 	padding-right: 40px;
 	cursor: pointer;
 	display: block;
+	transition: ease 200ms;
 }
 .word-found:hover {
 	font-weight: bold;
@@ -156,17 +175,20 @@ body {
 }
 .word-found-btn {
 	font-size: 15px;
-	background-color: #FFF;
-	color: #444;
-	border: 1px solid #666;
+	background-color: #2C2F33;
+	color: #FFFFFF;
+	border: 0px solid #FFF;
 	padding: 5px 10px 5px 10px;
-	border-radius: 3px;
+	border-radius: 10px;
 	margin: 5px;
+	transition: ease 200ms;
 	cursor: pointer;
 }
 .word-found-btn:hover {
-	color: #000;
-	border: 1px solid #222;
+    background-color: #7289DA;
+	color: #FFF;
+	border: 0px solid #FFF;
+	border-radius: 10px;
 }
 .word-found-btn:active {
 	transform: translateY(2px);
