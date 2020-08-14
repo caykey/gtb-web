@@ -1,7 +1,7 @@
 # Guess the Build Cheat
 This is a tool originally created by [**@croutonix**](https://github.com/Croutonix) and modified and re-styled being more Hypixel orientated.
 
-My version of this tool is publically avaliable at https://luke.mx/gtb/ and can be used for Hypixel, The Hive and Mineplex.
+My version of this tool is publically avaliable at https://luke.mx/gtb/ and can be used for Hypixel, The Hive & Mineplex.
 
 ## Contribute
 You can contribute to this project mostly by adding words to the `wordlist-xxxx.txt` files if you notice any are missing. Don't forget to separate each with a comma except after the last word. 
