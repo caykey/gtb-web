@@ -4,7 +4,7 @@ This is a tool originally created by [**@croutonix**](https://github.com/Crouton
 My version of this tool is publically avaliable at https://luke.mx/gtb/ and can be used for Hypixel, The Hive and Mineplex.
 
 ## Contribute
-You can contribute to this project mostly by adding words to the `wordlist-xxxx.txt` files if you notice any are missing. Don't forget to separate each with a comma except after the last word. No need to add them in alphabetical order.
+You can contribute to this project mostly by adding words to the `wordlist-xxxx.txt` files if you notice any are missing. Don't forget to separate each with a comma except after the last word. 
 
 ## CactiveClient GTB Module
 
